@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+  --font-inter: "Roboto", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+  @apply bg-[#f1f3f6] text-slate-900 antialiased;
+}
+
+@theme {
+  --color-primary-50: #eef4ff;
+  --color-primary-100: #e0ecff;
+  --color-primary-200: #c7dbff;
+  --color-primary-300: #a4c2ff;
+  --color-primary-400: #7e9tff;
+  --color-primary-500: #5575ff;
+  --color-primary-600: #2874f0;
+  --color-primary-700: #1a5ac6;
+  --color-primary-800: #1b49a1;
+  --color-primary-900: #1a4184;
+  --color-primary-950: #122956;
+}
+
+/* Base transitions */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Standard styles */
+.glass {
+  @apply bg-white shadow-sm border border-slate-200;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full hover:bg-slate-400;
+}
