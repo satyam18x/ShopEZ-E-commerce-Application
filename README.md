@@ -57,9 +57,4 @@ ShopEZ is a high-end, full-stack e-commerce platform built with the MERN (MongoD
    - **Backend**: `npm run server` (from backend dir)
    - **Frontend**: `npm run dev` (from frontend dir)
 
-## 📸 Screenshots
 
-*(Add screenshots here)*
-
-## 📄 License
-Distributed under the MIT License.
