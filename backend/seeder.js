@@ -4,7 +4,7 @@ const User = require('./models/userModel');
 const Product = require('./models/productModel');
 const connectDB = require('./config/db');
 
-dotenv.config();
+dotenv.config()
 connectDB();
 
 const seedData = async () => {
